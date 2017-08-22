@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+.cf::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.wrapper_bg{
+  background-image: url('../img/common_bg.png');
+  background-repeat: repeat;
+}
+
+.wrapper{
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.header{
+  min-width: 940px;
+  width: 940px;
+  padding: 40px 10px 10px;
+  margin: 0 auto;
+}
+
+.logo{
+  width: 340px;
+  margin: 0 auto;
+}
+
+.order_botton{
+  background-image: url('../img/header_order.png');
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 50px;
+  float: right;
+  margin-top: -135px;
+}
+
+.mailmark{
+  margin: 13px 0 0 11px;
+}
+
+.menus{
+  width: 940;
+  height: 30px;
+  margin-top: 40px;
+}
+
+.menu{
+  margin: 0 auto;
+}
+
+.menu li{
+  float: left;
+  padding: 0 35px;
+  color: #008000;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #008000;
+}
+
+.top_bg{
+  background-image: url('../img/top_bg.jpg');
+  width: 930px;
+  height: 412px;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+.top_bg img{
+  margin-bottom: 10px;
+  max-width: 920px;
+}
+
+
+.text {
+  text-align: center;
+  line-height: 412px;
+}
+
+.description p{
+  margin: 5px 0;
+  font-size: 12px;
+  color: #000;
+}
+
+.description a{
+  text-decoration: none;
+  color: #008000;
+}
+
+.order_botton2{
+  margin: 30px auto;
+  width: 200px;
+}
+
+.order_botton2 a{
+  display: block;
+  height: 50px;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 30px;
+}
+
+.boxes{
+  margin: 30px 0;
+}
+
+.boxes p{
+  margin: 10px 0;
+  line-height: 20px;
+  max-width: 420px;
+}
+.box img{
+  margin: 20px;
+}
+
+.box{
+  float: left;
+  width: 460px;
+  height: 480px;
+  background-color: #fff;;
+  margin: 10px 5px;
+}
+
+.homemade{
+  background-image: url('../img/colum_bg.png');
+  color: green;
+  padding-left: 20px;
+  margin: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  background-repeat: no-repeat;
+}
+
+.box_contents{
+  padding: 10px 20px;
+  line-height: 25px;
+  height: 110px;
+}
+
+.detail{
+  background-color: #008000;
+  width: 172px;
+  margin: 0 auto;
+}
+
+.detail a{
+  padding: 15px 30px;
+  background-color: #008000;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.footer{
+  background-color: #008000;
+  margin-top: 30px;
+}
+
+.footer p{
+  color: #fff;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
