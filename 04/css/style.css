@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+.cf::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+body{
+  font-family: serif;
+}
+
+.wrapper_1{
+  width: 980px;
+  margin: 15px auto;
+  margin-bottom: 0px;
+}
+
+.header_top{
+  height: 61px;
+  border-bottom: 1px solid #EDDEBD;
+  background: url('../img/home-icon.png') no-repeat;
+}
+
+.main_logo{
+  margin: 0 auto;
+}
+
+.main_logo a{
+  display: block;
+  width: 110px;
+  height: 15px;
+  margin: 0 auto;
+}
+
+.main_logo img{
+  width: 110px;
+  height: 45px;
+}
+
+.english_btn{
+  float: right;
+  padding: 5px 30px;
+  background: #FFAA00;
+}
+
+.english_btn a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.header_bottom{
+  width: 980px;
+  height: 63px;
+  border-bottom: 3px solid #EDDEBD;
+}
+
+.menu{
+  margin-left: 65px;
+}
+
+.menu ul{
+  margin:  0 auto;
+}
+
+.menu li{
+  float: left;
+  display: block;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: #000;
+  line-height: 63px;
+}
+
+.menu li a:hover{
+  text-decoration: underline;
+}
+
+.mainvisual{
+  background: url('../img/main.jpg');
+  height: 510px;
+}
+
+.mainvisual_text{
+  padding: 150px 0;
+}
+
+.mainvisual_text p{
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+
+.mainvisual_text h1{
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  font-size: 45px;
+}
+
+.textgroup_1{
+  margin: 10px 0;
+}
+
+.textgroup_2{
+  margin: 15px 0;
+}
+
+.question_title{
+  background: #D1AD5A;
+  height: 50px;
+  width: 100%;
+}
+
+.wrapper_2{
+  width: 980px;
+  margin: 0 auto;
+}
+
+.question_title h1{
+  color: #fff;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.question{
+  margin: 20px 0;
+}
+
+.fa{
+  font-size: 20px;
+}
+
+.question_desc{
+  padding: 10px 0;
+  border-bottom: 1px solid #EDDEBD;
+  line-height: 25px;
+  font-size: 15px;
+}
+.question_desc dt{
+  margin-bottom: 20px;
+}
+
+.question dl:first-child{
+  border-top: 1px solid #EDDEBD;
+}
+
+.recruit_title{
+  height: 50px;
+  background: #D1AD5A;
+
+}
+
+.recruit_title h1{
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+}
+
+.recruit em{
+  color: red;
+}
+
+.send{
+  height: 50px;
+  width: 150px;
+  background: orange;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.send a{
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.profile{
+  color: #D1AD5A;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.information{
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.mapbox{
+  margin: 20px 0;
+}
+
+.map_title{
+  background:  #D1AD5A;
+  height: 50px;
+}
+
+.map_title h1{
+  color: #fff;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.map{
+  width: 1280px;
+}
+
+.form table{
+  /*border: 1px solid gray;*/
+}
+
+.form th{
+  height: 50px;
+  width: 200px;
+  line-height: 50px;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.form td{
+  border-top: 1px solid gray;
+  width: 800px;
+}
+
+.form input{
+  margin: 20px 20px;
+  padding: 5px 600px 5px 5px;
+}
+
+.form select{
+  margin: 0 0 0 20px;
+  width: 200px;
+}
+
+.form textarea{
+  margin: 15px 0 0 15px;
+}
+
+.sendbtn{
+  color: #fff;
+  background: orange;
+}
+
+.footer{
+  height: 30px;
+  width: 1280px;
+  background: black;
+  color: #fff;
+  text-align: center;
+  margin-top: -22px;
+}
+
+.footer small{
+  line-height: 30px;
+}
